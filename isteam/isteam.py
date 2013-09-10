@@ -291,7 +291,7 @@ if __name__ == '__main__':
     config = 'config.xml'
     bot = InterfaceSteam(config)
 
-    st = 'STEAM_0:0:19372398'
+    st = 'STEAM_0:0:21322082'
 
     bot.joinChatRoom(st)
     steamid = SteamID(st)
@@ -302,8 +302,8 @@ if __name__ == '__main__':
     time.sleep(5) 
     # wait a few seconds before we start
     # dishing out messages
-    bot.sendChatMessage(steamid, 'anus')
-    bot.sendChatMessage(steamid, 'tart')
+    bot.sendChatMessage(steamid, 'hello')
+    bot.sendChatMessage(steamid, 'hob shlame?')
     time.sleep(10)
     bot.sendChatMessage(steamid, 'no fuk?')
     time.sleep(20)
@@ -320,4 +320,4 @@ if __name__ == '__main__':
 
 
 # cd C:\Program Files (x86)\IronPython 2.7
-# ipy.exe -X:Frames C:\Users\Everett\Desktop\WaterBot-master\isteam\isteam.py
+# ipy.exe -X:Frames C:\Users\Everett\Documents\GitHub\text2steam\isteam\isteam.py
