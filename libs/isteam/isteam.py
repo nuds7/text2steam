@@ -28,6 +28,9 @@ class ConfigThing():
         else:
             return et.parse(afile)
 
+
+# txt2st, lollerskates
+
 class InterfaceSteam:
     def __init__(self, xml):
         self.chatcallbacks = []
@@ -96,6 +99,7 @@ class InterfaceSteam:
         #log.registerLogListener(self.logCallback)
 
         self.client_connected = False
+        self.friends = []
 
     def joinChatCommand(self, command, args, source):
         if len(args) >= 1:
@@ -118,7 +122,7 @@ class InterfaceSteam:
 
     def _steamloop(self, callbackManager):
         while self._isRunning:
-            print('running')
+            print('bot running...')
             callbackManager.RunWaitCallbacks(System.TimeSpan.FromSeconds(1))
 
     #log happend
@@ -159,6 +163,7 @@ class InterfaceSteam:
         #log.info("Disconnected from steam")
         print("Disconnected from steam")
         self._isRunning = False
+        self.client_connected = False
         try:
             self._destorycallback("isteam")
         except:
@@ -168,6 +173,18 @@ class InterfaceSteam:
         #log.info("Logged into steam as %s" % self.username)
         print('Logged in')
         self.client_connected = True
+        time.sleep(4)
+
+        num_of_friends = self.steamFriends.GetFriendCount()
+
+        self.friends = []
+        for i in range(num_of_friends):
+            persona_id = self.steamFriends.GetFriendByIndex(i)
+            persona = self.steamFriends.GetFriendPersonaName(persona_id)
+            self.friends.append([str(persona),str(persona_id)])
+
+        print(self.friends)
+
         for chatname in self.cfgchatrooms.keys():
             self.joinChatRoom(self.cfgchatrooms[chatname])
 
@@ -200,7 +217,12 @@ class InterfaceSteam:
             senderid = self.IDtoLong(callback.Sender)
             message = callback.Message
 
-            print(str(senderid)+': '+str(message))
+            try:
+                print(str(self.steamFriends.GetFriendPersonaName(callback.Sender))+
+                      ': '+str(message))
+            except:
+                self.sendChatMessage(callback.Sender, "I can't handle Steam emoticons. "+
+                                                      "They make me cry.")
 
             if senderid == self.superuser:
                 chatperm = Perm.Super
@@ -208,6 +230,8 @@ class InterfaceSteam:
                 chatperm = Perm.User
             source = {'SourceID': senderid, 'SenderRank': chatperm, 'SenderID': senderid}
             self._processCommand(source, message)
+
+            chat_commands(self, callback.Sender, message)
 
     def _processCommand(self, source, message):
         #log.info(source['SourceID'], message)
@@ -281,13 +305,82 @@ class InterfaceSteam:
         self._destorycallback = callback
         return True
 
-def conn():
-    print('connected')
-def disconn():
-    print('disconnected')
 
+def find_between( s, first, last ):
+    try:
+        start = s.index( first ) + len( first )
+        end = s.index( last, start )
+        return s[start:end]
+    except ValueError:
+        return ""
+
+def find_between_r( s, first, last ):
+    try:
+        start = s.rindex( first ) + len( first )
+        end = s.rindex( last, start )
+        return s[start:end]
+    except ValueError:
+        return ""
+
+
+def chat_commands(bot, sender, message):
+    sender_profile_name = str(bot.steamFriends.GetFriendPersonaName(sender))
+    # chat commands for the bot
+    # say hi!
+    if message == 'hi' or message == 'Hi':
+        bot.sendChatMessage(sender, 'hi '+sender_profile_name)
+
+   # handle special commands between
+   # angle brackets
+    try:
+        submessage = find_between(message, '<', '>')
+        bot_kill(bot, sender, submessage)
+        bot_help(bot, sender, message)
+        bot_message(bot, sender, message)
+    except:
+        pass
+
+def bot_kill(bot, sender, submessage):
+    sender_profile_name = str(bot.steamFriends.GetFriendPersonaName(sender))
+
+    if submessage == 'KILL':
+        print 'User "'+sender_profile_name+'" executed "KILL."'
+        bot.sendChatMessage(sender, '*shoots robot parts*')
+        time.sleep(.5)
+        bot.destroy(disconnect())
+def bot_message(bot, sender, message):
+    submessage = find_between(message, '<', '>')
+    sender_profile_name = str(bot.steamFriends.GetFriendPersonaName(sender))
+    if submessage.startswith('MSG'):
+        recepient = find_between(submessage, '(', ')')
+
+        for friend in bot.friends:
+            if friend[0] == recepient:
+                recepient = friend[1]
+
+        # error handling
+        if str(SteamID(recepient)) == 'STEAM_0:0:0':
+            bot.sendChatMessage(sender, 'Invalid friend.')
+        else:
+            bot.sendChatMessage(sender, 'Sending to '+recepient)
+
+        bot.sendChatMessage(recepient, 
+                            "("+sender_profile_name+") "
+                            +message[message.find(">")+1:])
+
+def bot_help(bot, sender, message):
+    if message == 'help' or message == 'hi' or message == 'Hi':
+        bot.sendChatMessage(sender, 'To send someone a message: <MSG("friend")>"your message"')
+        bot.sendChatMessage(sender, 'txtrbot has '+str(len(bot.friends))+' friends')
+        bot.sendChatMessage(sender, 'They are: '+str(bot.friends))
+
+def connect():
+    print('Connected')
+def disconnect():
+    print('Disconnecting...')
 
 if __name__ == '__main__':
+    '''
     config = 'config.xml'
     bot = InterfaceSteam(config)
 
@@ -312,7 +405,9 @@ if __name__ == '__main__':
     time.sleep(5)
 
 
-    bot.destroy(disconn())
+    bot.destroy(disconnect())
+    '''
+    pass
 
 # me    'STEAM_0:0:19372398'
 # 2.0   'STEAM_0:1:24841292'

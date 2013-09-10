@@ -1,74 +1,79 @@
-import sys
-import subprocess
-import os
-os.chdir(os.path.dirname(sys.argv[0]))
-import time
-import bot
-#import git
-try:
-    from Queue import Queue, Empty
-except ImportError:
-    from queue import Queue, Empty  # python 3.x
+import os, sys
+lib_path = os.path.abspath('libs/')
+sys.path.append(lib_path)
 
-ON_POSIX = 'posix' in sys.builtin_module_names
+import smtplib
+imap_host = "imap.gmail.com"
+smtp_host = "smtp.gmail.com"
 
+user = "nuds55@gmail.com"
+passwd = "ssg662560407"
 
-class WatchDog:
-    def __init__(self, config):
-        self.config = config
-        self.bot = None
+steam_api_key = '3F42782DAF3F62A1AB43A57A8031D5CD'
 
-    def startBot(self):
-        self._updateBot()
-        self._openBot()
-        self._watcher()
+#server = smtplib.SMTP( smtp_host, 587 )
+#server.starttls()
+#server.login( user, passwd )
+#client.sendmail( 'peepus', '7602842159@mms.att.net', 'hi' )
 
-    def _restartBot(self):
-        print ("-----------------------------")
-        self._updateBot()
-        self._openBot()
+import imaplib
+import email
+from email.header import decode_header
+from email.parser import Parser
+import lxml.html
+import re
 
-    def _updateBot(self):
-        pass
-        #g = git.cmd.Git(os.getcwd())
-        #print g.pull()
-        #print "-----------------------------\n"
+client = imaplib.IMAP4_SSL(imap_host, 993)
+client.login(user, passwd)
+client.list()
+client.select('INBOX', readonly=True)
 
-    def _openBot(self):
-        self.bot = subprocess.Popen(["ipy", '-X:Frames', '-u', 'bot.py', self.config], 
-                                    stdout=subprocess.PIPE, 
-                                    stderr=subprocess.STDOUT, 
-                                    bufsize=1, close_fds=ON_POSIX,)
+result, data = client.search(None, "ALL")
 
-        # bot.BOT(self.config)
+ids = data[0] # data is a list.
+id_list = ids.split() # ids is a space separated string
+latest_email_id = id_list[-1] # get the latest
 
-    def _watcher(self):
-        while True:
-            try:
-                # read line without blocking
-                try:
-                    line = self.bot.stdout.readline()
-                except Empty:
-                    pass
-                else:  # got line
-                    print line.rstrip()
-                #polling
-                status = self.bot.poll()
-                if status is not None:
-                    time.sleep(2)
-                    self._restartBot()
-                #thread sleep
-                time.sleep(0.02)
-            except KeyboardInterrupt:
-                self.bot.terminate()
-                sys.exit(0)
+result, data = client.fetch(latest_email_id, "(RFC822)")
 
+# decode the email
+email_message = email.message_from_bytes(data[0][1])
+print(email_message)
 
-if __name__ == '__main__':
-    if len(sys.argv) > 1:
-        config = sys.argv[1]
-    else:
-        config = 'config.xml'
+headers = Parser().parsestr(str(email_message))
+email_from = headers['From']
+email_to = headers['To']
 
-    watchdog = WatchDog(config)
-    watchdog.startBot()
+print('From: '+email_from)
+print('To: '+email_to)
+
+# If message is multi part we only want the text 
+# version of the body, this walks the message 
+# and gets the body.
+if email_message.get_content_maintype() == 'multipart': 
+	for part in email_message.walk():       
+		print(part.get_content_type())
+		if part.get_content_type() == "text/html":
+			body = part.get_payload(decode=True)
+			body = str(email.message_from_bytes(body))
+
+			# http://stackoverflow.com/a/37512/2308849
+			# removing html tags from email body
+			body = lxml.html.fromstring(body).text_content()
+			# http://stackoverflow.com/a/6130119/2308849
+			# removing extra white space
+			body = re.sub(r'\s{2,}', ' ', body)
+
+			if email_from.endswith('mms.att.net'):
+				body = body.replace(' Multimedia Message ', '')
+
+			print(body)
+
+			temp = open("temp.txt", "a")
+			temp.write(str(body)+'\n')
+			temp.close()
+		else:
+			continue
+
+client.close()
+client.logout()

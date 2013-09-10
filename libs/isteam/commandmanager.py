@@ -8,7 +8,9 @@ class CommandManager:
     def __init__(self, xml):
         self._commands = {}
         self._plugins = {}
+        '''
         self.registerCommand("help", self.listCommands)
+        '''
 
     def listCommands(self, command, args, source):
         ret = "Available Commands:\n"
@@ -21,14 +23,16 @@ class CommandManager:
             mod = inspect.getmodule(frm[0])
             plugin = mod.__name__
             splitplugin = plugin.split(".")
+            #print(splitplugin)
             #get plugin dir
-            plugin = splitplugin[2]
+            plugin = splitplugin[0]
             if plugin not in self._plugins:
                 self._plugins[plugin] = []
             self._plugins[plugin].append(command)
             self._commands[command] = {"callback": callback, "perm": perm}
         else:
-            log.error("Command:", command, "is already registered")
+            pass
+            #log.error("Command:", command, "is already registered")
 
     def unRegisterCommand(self, command):
         if command in self._commands:
