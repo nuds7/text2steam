@@ -267,7 +267,7 @@ class InterfaceSteam:
         self.chatcallbacks.append(callback)
 
     def sendChatMessage(self, chatid, msg):
-        print(self.username+': '+msg)
+        print(self.username + ': ' + msg)
         steamid = SteamID(chatid)
         #print(steamid)
         if self.IDtoLong(chatid) in self.chatrooms:

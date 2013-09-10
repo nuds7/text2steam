@@ -16,12 +16,15 @@ class Bot(object):
 		self.bot = isteam.InterfaceSteam(config)
 
 	def update(self):
-		time.sleep(5)
 		while self.bot.client_connected:
 			time.sleep(1)
+
 if __name__ == '__main__':
+	# use txtrbot, lollerskates after steamguard
+	# is enabled on it. make sure you trade
+	# everything you want it to have, first!
 	bot = Bot('txt2st', 'lollerskates')
 	bot.update()
 
 # cd C:\Program Files (x86)\IronPython 2.7
-# ipy.exe -X:Frames C:\Users\Everett\Desktop\text2steam\libs\loop.py
+# ipy.exe -X:Frames C:\Users\Everett\Documents\GitHub\text2steam\libs\loop.py
