@@ -1,10 +1,9 @@
 import os, sys
-os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
+#os.chdir(os.path.dirname(os.path.abspath(sys.argv[0])))
 lib_path = os.path.abspath('isteam/')
 sys.path.append(lib_path)
 import isteam
 import time
-import gmail
 
 class Bot(object):
 	def __init__(self, username, password):
