@@ -14,6 +14,15 @@ import time
 import isteam
 import random
 
+from chatterbotapi import ChatterBotFactory, ChatterBotType
+
+'''
+factory = ChatterBotFactory()
+
+bot1 = factory.create(ChatterBotType.CLEVERBOT)
+bot1session = bot1.create_session()
+'''
+
 def find_between( s, first, last ):
 	try:
 		start = s.index( first ) + len( first )
@@ -44,6 +53,9 @@ class Txtrbot(object):
 
 		self.gmail_reader = gmail.GmailReader(mail_usr, mail_pw)
 
+		self.cleverbot_sessions = {}
+		self.cleverbot_factory = ChatterBotFactory()
+
 		self.mail_time = 5
 		self.flirt_time = 1200
 
@@ -61,6 +73,19 @@ class Txtrbot(object):
 
 	def OnFriendMsg(self, senderID, message):
 		pass
+
+	def cleverbot(self, sender, message):
+		#print(self.cleverbot_sessions.keys())
+		if sender not in self.cleverbot_sessions.keys():
+			print("--New cleverbot session--")
+			self.cleverbot_sessions[sender] = self.cleverbot_factory.create(ChatterBotType.CLEVERBOT).create_session()
+			response = self.cleverbot_sessions[sender].think(message)
+			print("Cleverbot: "+response)
+			self.interface.sendChatMessage(sender, response)
+		else:
+			response = self.cleverbot_sessions[sender].think(message)
+			print("Cleverbot: "+response)
+			self.interface.sendChatMessage(sender, response)
 
 	def checkMail(self):
 		if self.mail_time == 0:
@@ -87,69 +112,68 @@ class Txtrbot(object):
 
 	def SteamLoop(self):
 		self.checkMail()
+		#pass
 		#self.flirtCountdown()
 
 	# chat call back commands
 	def chat_commands(self, sender, message):
 		sender_profile_name = str(self.interface.steamFriends.GetFriendPersonaName(sender))
+
 		# chat commands for the bot
 		# say hi!
-		if message.lower() == 'hi':
+		if message.lower() == 'hi txtrbot':
 			self.interface.sendChatMessage(sender, 'hi '+sender_profile_name+" <3")
-		if message == 'how are you?' or message == 'How are you?':
-			self.interface.sendChatMessage(sender, "i'm doing fine =]")
 	
 	   	# handle special commands between
 	   	# angle brackets
-		try:
-			self.bot_kill			(sender, message)
-			self.bot_help			(sender, message)
-
-			self.bot_message		(sender, message)
-			self.bot_email			(sender, message)
-
-			self.bot_add_friend		(sender, message)
-			self.bot_remove_friend	(sender, message)
-		except:
-			pass
+	   	if message.startswith('['):
+			try:
+				self.bot_kill			(sender, message)
+				self.bot_help			(sender, message)
+	
+				self.bot_message		(sender, message)
+				self.bot_email			(sender, message)
+	
+				self.bot_add_friend		(sender, message)
+				self.bot_remove_friend	(sender, message)
+			except: pass
+		else:
+			# cleverbot
+			try:
+				self.cleverbot 			(sender, message)
+			except: pass
 
 	# individual commands
 	def bot_kill(self, sender, message):
 		sender_profile_name = str(self.interface.steamFriends.GetFriendPersonaName(sender))
 		submessage = find_between(message, '[', ']')
 
-		if submessage == 'KILL' or message == 'DIE ASSHOLE':
+		if submessage == 'KILL' or submessage == 'DIE ASSHOLE':
 			print 'User "'+sender_profile_name+'" killed txtrbot!'
 			self.interface.sendChatMessage(sender, '*shoots robot parts*')
 			time.sleep(.5)
 			self.interface.destroy(disconnect())
 	
 	def bot_help(self, sender, message):
-		if message.lower() == 'help' or message.lower() == 'hi':
+		if message.lower() == '[help]':
 			self.interface.sendChatMessage(sender, '...\nTo text someone from Steam: [@their_number@smsgateway.com] your message\n'+
 												   'To send someone a message from Steam and or your phone: [*friend] your message\n'+
-												   "Type 'list friends' for a list txtrbot's of friends\n"+
+												   "Type [list friends] for a list txtrbot's of friends\n"+
 												   'For a list of SMS gateways, visit http://www.emailtextmessages.com/\n')
 		# get a list of txtrbot's friends
-		if message.lower() == 'list friends':
+		if message.lower() == '[list friends]':
 			self.interface.sendChatMessage(sender, 'txtrbot has '+str(len(self.interface.friends))+' best friends. '+
 												   'They are: \n'+str(self.interface.friends)+'\n')
 
-		if message.lower() == '#mizzy#':
-			self.interface.sendChatMessage(sender, '...\n[+SteamID] to add\n'+
-												   '[-SteamID] to remove\n'+
+		if message.lower() == '[#mizzy#]':
+			self.interface.sendChatMessage(sender, '...\n[+SteamID+] to add\n'+
+												   '[-SteamID-] to remove\n'+
 												   'http://steamid.co/')
 
 	
 	def bot_message(self, sender, message):
 		sender_profile_name = str(self.interface.steamFriends.GetFriendPersonaName(sender))
-
-		message_log = open("message_log.txt", "a") 												# logging
-
 		recepient = command_finder(message, '[*] ')
-
-		message_log.write("# "+str(datetime.now())+" #\n") 										# logging
-		message_log.write(recepient+'\n') 
 
 		if message[1] == '*':
 			for friend in self.interface.friends:
@@ -164,10 +188,6 @@ class Txtrbot(object):
 				self.interface.sendChatMessage(sender, 'Sent to '+recepient)
 				self.interface.sendChatMessage(recepient, "("+sender_profile_name+") "+
 										   	              message[message.find("] ")+1:])
-				
-				message_log.write(sender_profile_name+str(message[message.find("] ")+1:])+'\n') # logging
-
-		message_log.close() 																	# logging
 	
 	def bot_email(self, sender, message):
 		sender_profile_name = str(self.interface.steamFriends.GetFriendPersonaName(sender))
@@ -235,7 +255,7 @@ class Txtrbot(object):
 	def bot_add_friend(self, sender, message):
 		sender_profile_name = str(self.interface.steamFriends.GetFriendPersonaName(sender))
 
-		recepient = command_finder(message, '[+] ' )
+		recepient = command_finder(message, '[++]' )
 		if message[1] == '+':
 			steam_id = SteamID(recepient)
 			self.interface.steamFriends.AddFriend(steam_id)
@@ -243,7 +263,7 @@ class Txtrbot(object):
 	def bot_remove_friend(self, sender, message):
 		sender_profile_name = str(self.interface.steamFriends.GetFriendPersonaName(sender))
 
-		recepient = command_finder(message, '[-] ')
+		recepient = command_finder(message, '[--]')
 		if message[1] == '-':
 			steam_id = SteamID(recepient)
 			self.interface.steamFriends.RemoveFriend(steam_id)

@@ -4,3 +4,718 @@
 # 2013-09-29 15:18:26.315000 #
 Christopher Dycus <chris.dycus@oculusvr.com>
 your faceOn Sun, Sep 29, 2013 at 3:17 PM, &lt;text2steam@gmail.com&gt; wrote: 2Pretty2Die: peepus -- Sent from Steam using txtrbot. &lt;3 
+# 2013-10-10 13:10:35.046000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-10 13:10:36.317000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:37.732000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196413@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:39.106000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:40.409000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196413@tmomail.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:42.142000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+Delivery to the following recipient failed permanently:
+
+     19099196413@tmomail.com
+
+Technical details of permanent failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:45.018000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-10 13:10:46.248000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:47.594000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196413@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:48.855000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:49.794000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196413@tmomail.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:52.900000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-10 13:10:53.828000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:54.754000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196413@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:56.284000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 1 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:10:58.715000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-10 13:10:59.981000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:11:00.830000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196413@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=OOH1p0FRUHKuFx9HUPKpN11gXd+GvyhKyLf5q73r3+oNzbRBFameKvUYMDngJNHvAp
+         pho1V646JlnWJfVynJujHQlMiJYwc5Ci6N0Op3OajD9bu+5bpv4JUCPE/gxFt+uOlf8y
+         N6X6A2d+TOk2ByocuWVdgzP/F8/PvJ8tFgJgdQXVNn23QZJ+zLvFTi1Ye7ifC9zPIHuW
+         c4MdrxEivEG/haN8AAzDqTGDY3vf+tXK1GMGxhPlujfrBZ1sCVektHix/OypBF+kqU+Q
+         i1ybYhZ09+YDX1TPxfQw7pV4xvxDsg0/tjGiDzL0s+P75/B76PNvn24o+9wTCJvW5w0A
+         57Mg==
+X-Received: by 10.66.119.136 with SMTP id ku8mr24661562pab.121.1380492829338;
+        Sun, 29 Sep 2013 15:13:49 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id l8sm22645628pbl.22.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+Message-ID: <5248a61c.a804440a.145e.727f@mx.google.com>
+Date: Sun, 29 Sep 2013 15:13:48 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196413@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:11:03.723000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-10 13:11:04.863000 #
+Mail Delivery Subsystem <mailer-daemon@googlemail.com>
+This is an automatically generated Delivery Status Notification
+
+THIS IS A WARNING MESSAGE ONLY.
+
+YOU DO NOT NEED TO RESEND YOUR MESSAGE.
+
+Delivery to the following recipient has been delayed:
+
+     19099196143@tmomail.com
+
+Message will be retried for 2 more day(s)
+
+Technical details of temporary failure: 
+The recipient server did not accept our requests to connect. Learn more at http://support.google.com/mail/bin/answer.py?answer=7720 
+[(10) postbox.fabulous.com. [128.242.120.13]:25: Connection timed out]
+
+----- Original message -----
+
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=message-id:date:from:\from:to:subject;
+        bh=tJZdehw5I7Fx9bsWAlsJH8Nl38i3TQJRJDaXVHy8Nbw=;
+        b=cdHsNOTVmReerNFj28Bo/KZ6O2hfDQj2d7jQjweifgAbWF8/Fs4cK6Yoh5sAL8QXi2
+         9iOUQMniAF4+QFVHPTE0JLAWWXFa7oJHI1S0lt/jY9vbWIW2CLrdnKqE6DBES4CSQnpL
+         YiNIgsEz4Dpfz8mE8bgTAeOsV04hW9ZcXkL6zwbJrFziiviD5uhWIu8RDw28yuND0YmZ
+         uog/O52WFB/J7qG60Wd13r30wBKfWiyjUlJM5x25TDezYcxjtgkYXSgBnfiutWdoww+d
+         VSm96wPW6nl/HNU11aqqo/kFQPArlK8Ge8sHxEfSOMMqpevONrAN5ZxdNQxi9/ujFldi
+         LrGA==
+X-Received: by 10.67.30.100 with SMTP id kd4mr25032661pad.24.1380492867054;
+        Sun, 29 Sep 2013 15:14:27 -0700 (PDT)
+Return-Path: <text2steam@gmail.com>
+Received: from [192.168.1.100] ([209.203.76.70])
+        by mx.google.com with ESMTPSA id ve9sm22653290pbc.19.1969.12.31.16.00.00
+        (version=SSLv3 cipher=RC4-SHA bits=128/128);
+        Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+Message-ID: <5248a642.c9ed440a.2fdf.6f7a@mx.google.com>
+Date: Sun, 29 Sep 2013 15:14:26 -0700 (PDT)
+From: text2steam@gmail.com
+\From: text2steam@gmail.com
+To: 19099196143@tmomail.com
+Subject: 
+
+2Pretty2Die: peepus
+-- Sent from Steam using txtrbot. <3
+# 2013-10-10 13:11:07.409000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-10 13:11:10.398000 #
+Postmaster <postmaster@oculusvr-com-com.bounceio.net>
+Message truncated.
+# 2013-10-23 15:47:33.970000 #
+text2steam@gmail.com
+2Pretty2Die: [*Ironfoot Hams] hi
+-- Sent from Steam using txtrbot. <3
+# 2013-10-23 15:47:59.606000 #
+text2steam@gmail.com
+2Pretty2Die: [*2Pretty2Die] hi
+-- Sent from Steam using txtrbot. <3
+# 2013-10-23 15:49:11.877000 #
+text2steam@gmail.com
+2Pretty 2Die: [*2Pretty 2Die] hi
+-- Sent from Steam using txtrbot. <3

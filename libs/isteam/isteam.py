@@ -233,9 +233,16 @@ class InterfaceSteam:
             try:
                 print(str(self.steamFriends.GetFriendPersonaName(callback.Sender))+
                       ': '+str(message))
+                # logging
+                message_log = open("message_log.txt", "a")
+        
+                message_log.write("# "+str(datetime.now())+" #"+"\n")
+                message_log.write(str(sender)+": "+str(message)+'\n')
+        
+                message_log.close()
             except:
-                self.sendChatMessage(callback.Sender, "I can't handle Steam emoticons. "+
-                                                      "They make me cry.")
+                pass
+                #self.sendChatMessage(callback.Sender, "emoticon...")
 
             if senderid == self.superuser:
                 chatperm = Perm.Super
